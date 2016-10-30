@@ -1,0 +1,6 @@
+## Interface: 70003
+## Title: Overwatch Sounds
+## Version: 1.0
+## Author: Nataska - US-Vashj
+
+OWFtw.lua
