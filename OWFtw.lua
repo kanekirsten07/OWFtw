@@ -227,6 +227,7 @@ function OWFtw.events.COMBAT_LOG_EVENT_UNFILTERED
 			if (sid == 56936) then PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwblizzard.mp3"); end;
 			
 			if(sid == 31661) then PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwdragonconsume.mp3"); end;
+			if(sid == 122) then PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwfreeze.mp3"); end;
 			
 -- 			Warrior
 			if(sid == 23931) then PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwhammerdown.mp3"); end;
@@ -240,9 +241,15 @@ function OWFtw.events.COMBAT_LOG_EVENT_UNFILTERED
 			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwgotyouinmysights.mp3")
 			end
 -- 			Druid
-
+			if (sid == 5185) then
+			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwhealup.mp3")
+			if (sid == 740) then
+			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwhealingboost.mp3")
 --			Warlock  
-
+			if (sid == 5740) then
+			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwjusticerains.mp3")
+			if (sid == 29722) then
+			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtw.mp3")
 --			Priest
 			if (sid == 34861) then
 			PlaySoundFile("Interface\\AddOns\\OverwatchSounds\\Sounds\\OWFtwgotyouinmysights.mp3")
